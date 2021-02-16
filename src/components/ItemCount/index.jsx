@@ -11,7 +11,7 @@ const ItemCountComponent = ({ stock, onAdd, onSubstract, contador }) => {
             <button className="btn btn-danger btn-number" onClick={() => { onSubstract(stock) }}>-</button> 
         </span>
         
-        <span className="form-control">{contador}</span>
+        <span className="form-control" >{contador}</span>
         
         <span class="input-group-btn">
             <button className="btn btn-danger btn-number"  onClick={() => { onAdd(stock) }}>+</button> 

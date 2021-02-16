@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  {Link} from 'react-router-dom';
+
 import CartWidgetComponent from '../../containers/CartWidget';
 //import ItemListContainer from './containers/ItemListContainer';
 
@@ -56,6 +58,7 @@ const NavbarComponent = () => {
                     <a className="nav-link" href="#">Componentes PC<span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
+
                     <a className="nav-link" href="#">Notebooks</a>
                 </li>
                 <li className="nav-item">
@@ -74,6 +77,7 @@ const NavbarComponent = () => {
                     <a className="nav-link" href="#">Conectividad y Redes</a>
                 </li>
                 <li className="nav-item">
+                    
                     <a className="nav-link" href="#">Celulares y Telefonia</a>
                 </li>
             </ul>
